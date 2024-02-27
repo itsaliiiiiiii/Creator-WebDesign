@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+body{
+    margin: 0px;
+}
+.backgound{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.colorGray{
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    bottom: -50%;
+    border-radius: 1000px;
+    box-shadow: 0 -14px 100px rgba(0, 0, 0, 0.2);
+}
+.colorPurple{
+    background-color: #5c34cb;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    bottom: -55%;
+    border-radius: 1000px;
+}
+main{
+    position:absolute;
+    top: calc(50vh - 300px);
+    right: calc(50vw - 450px);
+    background-color: white;
+    /* border:#5c34cb solid 2px; */
+    box-shadow: 0 0px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    width: 900px;
+    height: 600px;
+}
+header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    box-sizing: border-box;
+}
+header .title{
+    font-size: 30px;
+    color: #5c34cb;
+    font-family: 'Pacifico', cursive;
+}
+header .signUp{
+    font-size: 18px;
+    color: #0000009f;
+    font-family: 'Hind', sans-serif;
+}
+header span {
+    color: #5c34cbba;
+}
+img{
+    width: 50%;
+    object-fit:fill;
+}
+.container{
+    display: flex;
+    margin-left: 45px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 20px;
+}
+.welcome{
+    font-size: 30px;
+    color: #00000093;
+    font-family: 'Pacifico', cursive;
+}
+.login{
+    color: #0000005b;
+    font-family: 'Hind', sans-serif;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.mailContainer,
+.passwordContainer{
+    margin-top: 20px;
+    border: #5c34cba3 solid 2px;
+    height: 40px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.mailContainer input,
+.passwordContainer input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 3px 0 0 10px;
+    color: #0000008d;
+    font-family: 'Hind', sans-serif;
+    width: 100%;
+    background-color: transparent;
+}
+.buttonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+.button{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color:white;
+    background-color: #5c34cb;
+    margin-left:5px;
+}
+.forgotPassword{
+    color: #5c34cbab;
+    font-family: 'Hind', sans-serif;
+}
+.loginWith{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0 0 5px;
+    width: 60%;
+}
+label{
+padding-top: 2px;
+    color: #0000008d;
+    font-family: 'Hind', sans-serif;
+}
